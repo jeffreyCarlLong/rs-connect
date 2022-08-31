@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jeffrey Long">
+
+<title>R Shiny Proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="r_shiny_proposal_for_caredx_files/libs/clipboard/clipboard.min.js"></script>
+<script src="r_shiny_proposal_for_caredx_files/libs/quarto-html/quarto.js"></script>
+<script src="r_shiny_proposal_for_caredx_files/libs/quarto-html/popper.min.js"></script>
+<script src="r_shiny_proposal_for_caredx_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="r_shiny_proposal_for_caredx_files/libs/quarto-html/anchor.min.js"></script>
+<link href="r_shiny_proposal_for_caredx_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="r_shiny_proposal_for_caredx_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="r_shiny_proposal_for_caredx_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="r_shiny_proposal_for_caredx_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="r_shiny_proposal_for_caredx_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">R Shiny Proposal</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jeffrey Long </p>
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="stakeholders" class="level2">
+<h2 class="anchored" data-anchor-id="stakeholders">Stakeholders</h2>
+<p>Jeffrey Long (jlong@caredx.com), Kunbin Qu (kqu@caredx.com, Ling Shen (lshen@caredx.com), Victor Tran (vtran@caredx.com)</p>
+<p>Tayler Moosa, Account Excecutive at RStudio PBC, Phone 716-414-5006, (<a href="mailto:tayler.moosa@rstudio.com">tayler.moosa@rstudio.com</a>)</p>
+<p>Miles Casey, Enterprise Advocate at RSudio PBC, (<a href="mailto:miles@rstudio.com">miles@rstudio.com</a>)</p>
+</section>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>RStudio offers an array of software solutions for multilingual statisticians, data scientists, and bioinformaticists. The purpose of this document is to outline those offerings, the value add of each option and initial project support that would be enhanced.</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p><a href="https://colorado.rstudio.com/rsc/moosa-lsh-info/lshInformation.html" title="https://colorado.rstudio.com/rsc/moosa-lsh-info/lshInformation.html">General Information and Demo Recording</a></p>
+<p><a href="https://docs.rstudio.com/rsw/installation/" title="https://docs.rstudio.com/rsw/installation/">Installation Overview</a>&nbsp;- for IT team</p>
+<p><a href="https://www.rstudio.com/pricing/individual-products/" title="https://www.rstudio.com/pricing/individual-products/">Individual Pricing Page</a></p>
+</section>
+<section id="pricing" class="level2">
+<h2 class="anchored" data-anchor-id="pricing">Pricing</h2>
+<p>RStudio offers two bundles:</p>
+<p>- RStudio Team Standard, which&nbsp;includes Workbench Standard, Connect Base or Standard, and Package Manager Base or Standard. This bundle offers a 15% discount.</p>
+<p>- RStudio Team Enterprise, which includes all three Enterprise products. This bundle offers a 20% discount.</p>
+</section>
+<section id="rstudio-connect" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio-connect">RStudio Connect</h2>
+<p><strong>RStudio Connect Base</strong> includes 20 named users and support for RMarkdown, Shiny, and Jupyter.</p>
+<p><strong>RStudio Connect Standard</strong> includes 100 named users and additionally supports Plumber APIs and python products (Flask, Dash, etc).</p>
+</section>
+<section id="other-products-offered" class="level2">
+<h2 class="anchored" data-anchor-id="other-products-offered">Other Products Offered</h2>
+<p>Two other products offered by RStudio are Workbench and Package Manager. The value of these products should be evaluated. <strong>This proposal is for the RStudio Connect Standard product.</strong></p>
+</section>
+<section id="value-added-by-rstudio-connect" class="level2">
+<h2 class="anchored" data-anchor-id="value-added-by-rstudio-connect">Value Added by RStudio Connect</h2>
+<ul>
+<li><p>Start sharing Shiny applications</p></li>
+<li><p>Deploy pins to share data, models, and other R objects across projects and with colleagues</p></li>
+<li><p>Build a blog to share work &amp; best practices among others at the company</p></li>
+<li><p>Schedule automated PDF reports with parameterized R Markdown for business stakeholders</p></li>
+<li><p>Use RStudio with communication channels (like Slack) that are already in use by business stakeholders</p></li>
+<li><p>Build a custom landing page for business stakeholders to make content discovery easier</p></li>
+<li><p>Use an internally created package to standardize dashboards across the team</p></li>
+<li><p>Use APIs to enable Tableau users at the company to leverage work done by the data science team in R and Python</p></li>
+<li><p>Check out the Connect Server API to utilize usage data that helps answer questions like: Is my CEO using this app?</p></li>
+<li><p>Host microservices via Plumber APIs that connect data science work with your data engineering &amp; development teams</p></li>
+<li><p>Use and share Quarto documents/ websites which are language agnostic markdown files for team cohesion</p></li>
+</ul>
+</section>
+<section id="caredx-specific-value-proposition" class="level2">
+<h2 class="anchored" data-anchor-id="caredx-specific-value-proposition">CareDx Specific Value Proposition</h2>
+<p>Clinical trial data portals in R Shiny would enable the communication of insights, integrated data sets and interactive visualizations. CareDx currently manages the following clinical trials:</p>
+<ul>
+<li><p>KOAR - Kidney with AlloSure</p></li>
+<li><p>SHORE - Heart with AlloSure and AlloMap</p></li>
+<li><p>OKRA - Kidney with AlloSure, AMK, iBox</p></li>
+<li><p>MAPLE - Liver with LiverCare</p></li>
+<li><p>TEAMMATE - RCT: Using AlloCare app for kidney, heart, liver and lung</p></li>
+<li><p>ACROBAT - AlloHeme in AML/ALL/MDX HCT patients</p></li>
+<li><p>KIRA - RCT: Immunosuppressant adjustment in kidney patients</p></li>
+<li><p>MOSAIC - RCT: Immunosuppressant adjustment in heart patients</p></li>
+</ul>
+</section>
+<section id="proposal" class="level2">
+<h2 class="anchored" data-anchor-id="proposal">Proposal</h2>
+<p>Please visit <a href="https://www.rstudio.com/products/connect/">RStudio Connect Standard</a> link to view further added value poroposition. The cost of RS Connect Standard is <strong>$24,995 / year. This is e</strong>quivalent to <strong>$21</strong> per user / month. It includes:</p>
+<ul>
+<li><p><strong>100</strong> Named Users per year</p></li>
+<li><p><strong>Single Server</strong> Activation</p>
+<ul>
+<li><p><strong>Includes all Base Features</strong></p></li>
+<li><p>+ Publish APIs and Interactive Python Data Products</p></li>
+<li><p>Add Users in blocks of 50 for <strong>$4.67</strong> per user / month</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<p>Schedule a demo, where a solutions engineer will walk us through all three products.&nbsp;To get scheduled, just let Jeffrey Long know and we can go from there.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

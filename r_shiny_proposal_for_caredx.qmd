@@ -1,0 +1,106 @@
+---
+title: "R Shiny Proposal"
+author: "Jeffrey Long"
+format: html
+editor: visual
+---
+
+## Stakeholders
+
+Jeffrey Long (jlong\@caredx.com), Kunbin Qu (kqu\@caredx.com, Ling Shen (lshen\@caredx.com), Victor Tran (vtran\@caredx.com)
+
+Tayler Moosa, Account Excecutive at RStudio PBC, Phone 716-414-5006, ([tayler.moosa\@rstudio.com](mailto:tayler.moosa@rstudio.com "mailto:tayler.moosa@rstudio.com"))
+
+Miles Casey, Enterprise Advocate at RSudio PBC, ([miles\@rstudio.com](mailto:miles@rstudio.com "mailto:miles@rstudio.com"))
+
+## Purpose
+
+RStudio offers an array of software solutions for multilingual statisticians, data scientists, and bioinformaticists. The purpose of this document is to outline those offerings, the value add of each option and initial project support that would be enhanced.
+
+## Resources
+
+[General Information and Demo Recording](https://colorado.rstudio.com/rsc/moosa-lsh-info/lshInformation.html "https://colorado.rstudio.com/rsc/moosa-lsh-info/lshInformation.html")
+
+[Installation Overview](https://docs.rstudio.com/rsw/installation/ "https://docs.rstudio.com/rsw/installation/") - for IT team
+
+[Individual Pricing Page](https://www.rstudio.com/pricing/individual-products/ "https://www.rstudio.com/pricing/individual-products/")
+
+## Pricing
+
+RStudio offers two bundles:
+
+\- RStudio Team Standard, which includes Workbench Standard, Connect Base or Standard, and Package Manager Base or Standard. This bundle offers a 15% discount.
+
+\- RStudio Team Enterprise, which includes all three Enterprise products. This bundle offers a 20% discount.
+
+## RStudio Connect
+
+**RStudio Connect Base** includes 20 named users and support for RMarkdown, Shiny, and Jupyter.
+
+**RStudio Connect Standard** includes 100 named users and additionally supports Plumber APIs and python products (Flask, Dash, etc).
+
+## Other Products Offered
+
+Two other products offered by RStudio are Workbench and Package Manager. The value of these products should be evaluated. **This proposal is for the RStudio Connect Standard product.**
+
+## Value Added by RStudio Connect
+
+-   Start sharing Shiny applications
+
+-   Deploy pins to share data, models, and other R objects across projects and with colleagues
+
+-   Build a blog to share work & best practices among others at the company
+
+-   Schedule automated PDF reports with parameterized R Markdown for business stakeholders
+
+-   Use RStudio with communication channels (like Slack) that are already in use by business stakeholders
+
+-   Build a custom landing page for business stakeholders to make content discovery easier
+
+-   Use an internally created package to standardize dashboards across the team
+
+-   Use APIs to enable Tableau users at the company to leverage work done by the data science team in R and Python
+
+-   Check out the Connect Server API to utilize usage data that helps answer questions like: Is my CEO using this app?
+
+-   Host microservices via Plumber APIs that connect data science work with your data engineering & development teams
+
+-   Use and share Quarto documents/ websites which are language agnostic markdown files for team cohesion
+
+## CareDx Specific Value Proposition
+
+Clinical trial data portals in R Shiny would enable the communication of insights, integrated data sets and interactive visualizations. CareDx currently manages the following clinical trials:
+
+-   KOAR - Kidney with AlloSure
+
+-   SHORE - Heart with AlloSure and AlloMap
+
+-   OKRA - Kidney with AlloSure, AMK, iBox
+
+-   MAPLE - Liver with LiverCare
+
+-   TEAMMATE - RCT: Using AlloCare app for kidney, heart, liver and lung
+
+-   ACROBAT - AlloHeme in AML/ALL/MDX HCT patients
+
+-   KIRA - RCT: Immunosuppressant adjustment in kidney patients
+
+-   MOSAIC - RCT: Immunosuppressant adjustment in heart patients
+
+## Proposal
+
+Please visit [RStudio Connect Standard](https://www.rstudio.com/products/connect/) link to view further added value poroposition. The cost of RS Connect Standard is **\$24,995 / year. This is e**quivalent to **\$21** per user / month. It includes:
+
+-   **100** Named Users per year
+
+-   **Single Server** Activation
+
+    -   **Includes all Base Features**
+
+    -   \+ Publish APIs and Interactive Python Data Products
+
+    -   Add Users in blocks of 50 for **\$4.67** per user / month
+
+## Next Steps
+
+Schedule a demo, where a solutions engineer will walk us through all three products. To get scheduled, just let Jeffrey Long know and we can go from there.
