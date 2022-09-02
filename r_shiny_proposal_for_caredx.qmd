@@ -87,6 +87,10 @@ Clinical trial data portals in R Shiny would enable the communication of insight
 
 -   MOSAIC - RCT: Immunosuppressant adjustment in heart patients
 
+## Proof of Concept
+
+A Shiny App [**Retrospective Cohort Study of Myeloablative Allogeneic Hematopoietic Stem Cell Transplant**](https://github.com/jeffreyCarlLong/hsct-shiny "A Shiny App Built On Public Data")was developed and is available for demostration by Jeffrey Long. Another R Shiny application, "Trial Patient Explorer" has also been developed for the ACROBAT clinical trial.
+
 ## Proposal
 
 Please visit [RStudio Connect Standard](https://www.rstudio.com/products/connect/) link to view further added value poroposition. The cost of RS Connect Standard is **\$24,995 / year. This is e**quivalent to **\$21** per user / month. It includes:
@@ -100,6 +104,8 @@ Please visit [RStudio Connect Standard](https://www.rstudio.com/products/connect
     -   \+ Publish APIs and Interactive Python Data Products
 
     -   Add Users in blocks of 50 for **\$4.67** per user / month
+
+Alternatively, a free Shiny Server base installation could be pursued behind a firewall at the company. This version of the Shiny Server has a much more limited functionality. Primary among the drawbacks is the inability to authenticate users for access.
 
 ## Next Steps
 
